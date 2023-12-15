@@ -1,5 +1,5 @@
 # My svelte-kit-portfolio wesbite
-This repository contains the files, code, and assets that I used to create my [portfolio website](https://svelte-kit-portfolio-pandu-0-manmohanbabu-rupanagudis-projects.vercel.app/).
+This repository contains the files, code, and assets that I used to create my [portfolio website](https://pandu-svelte-kit-portfolio-phi.vercel.app/).
 
 The website contains:
 * About Me
