@@ -51,6 +51,6 @@
         opacity-20 group-hover:translate-x-full z-0 duration-200"
     />
         <!--Header Get in touch button -->
-        <h4 style="font-size: medium;" class="relative z-9">Get in touch &uarr;</h4>
+        <h4 style="font-size: medium;" class="relative z-9">Connect &uarr;</h4>
     </a>
 </header>

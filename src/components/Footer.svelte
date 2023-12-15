@@ -31,6 +31,16 @@
          
         </a>
 
+        <p>
+            Thanks to 
+            <span class="text-violet-400 z-20">
+                <a href="https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw" target="_blank">
+                    @Smolijames
+                </a>
+            </span>
+            for the portfolio tutorial!
+        </p>
+
         <!-- <p>
             <b class="pr-2">GitHub</b>
             <a href=" " target="_blank" class="text-violet-400"
