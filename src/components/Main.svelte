@@ -4,18 +4,18 @@
 let steps = [
     {
         name: "131 Mini Project!",
+        // Icons are from https://fontawesome.com/
         icon: "fa-solid fa-terminal fa-beat",
         description:
             "INSERT",
         href: "https://github.com/pandu-0/cs131/tree/master/a5#a5-project-cs131",
     },
     {
-        name: "Temp1",
-        icon: "fa-solid fa-question fa-spin",
+        name: "Damaged Car Parts Recognition ML model",
+        icon: "fa-solid fa-car-burst fa-shake",
         description:
             "INSERT1",
-        
-        href: "#",
+        href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
     },
     {
         name: "Temp2",
@@ -122,6 +122,8 @@ let steps = [
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+
+            <!-- PROJECT 1 -->
             <Step step={steps[0]}>
                 <p>
                     A mini project in my CS131 class where I 
@@ -138,13 +140,21 @@ let steps = [
                     <strong class="text-violet-400">gnuplot</strong>.
                 </p>
             </Step>
-            <Step step={steps[1]}>
-                
 
+            <!-- PROJECT 2 -->
+            <Step step={steps[1]}>
                 <p>
-                    BLANK :((
+                    A custom <strong class="text-violet-400">ML model</strong> I created that automatically 
+                    <strong class="text-violet-400">recognizes damaged car parts</strong> given a 
+                    image of the damaged car. The model was made using 
+                    <strong class="text-violet-400">Google Cloud Platform's Vertex AI AutoML Vision</strong>. 
+                    This model is capable of <strong class="text-violet-400">classifying</strong> damaged parts 
+                    into Bumper, Engine compartment, Hood, Lateral & Windshield 
+                    with 73% precision and 50% recall.
                 </p>
             </Step>
+
+            <!-- PROJECT 3 -->
             <Step step={steps[2]}>
                 <p>
                     BLANK :((
@@ -173,6 +183,7 @@ let steps = [
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
             I am . . .
         </p>
+
         <!-- 3 bullet points -->
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
