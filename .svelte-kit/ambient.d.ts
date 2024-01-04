@@ -130,6 +130,7 @@ declare module '$env/static/private' {
 	export const npm_config_auth_type: string;
 	export const npm_package_name: string;
 	export const LANG: string;
+	export const LOCAL_GIT_DIRECTORY: string;
 	export const npm_config_tag: string;
 	export const npm_config_script_shell: string;
 	export const npm_config_progress: string;
@@ -346,6 +347,7 @@ declare module '$env/dynamic/private' {
 		npm_config_auth_type: string;
 		npm_package_name: string;
 		LANG: string;
+		LOCAL_GIT_DIRECTORY: string;
 		npm_config_tag: string;
 		npm_config_script_shell: string;
 		npm_config_progress: string;

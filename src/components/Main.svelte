@@ -3,13 +3,14 @@
 
 let steps = [
     {
-        name: "131 Mini Project!",
+        name: "Temp1",
         // Icons are from https://fontawesome.com/
-        icon: "fa-solid fa-terminal fa-beat",
+        icon: "fa-solid fa-question fa-spin",
         description:
             "INSERT",
-        href: "https://github.com/pandu-0/cs131/tree/master/a5#a5-project-cs131",
+        href: "#",
     },
+
     {
         name: "Damaged Car Parts Recognition ML model",
         icon: "fa-solid fa-car-burst fa-shake",
@@ -30,19 +31,25 @@ let steps = [
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught programmer",
+            name: "A Self Taught Programmer",
             description:
                 "Blank :((",
         },
         {
-            name: "a Machine Learning enthusiast",
+            name: "A Machine Learning Enthusiast",
             description:
-                "Blank :((",
+                "I've always loved trying to predict little things in life. After taking CS 131 that " + 
+                "covered a bit of Machine Learning, I developed a passion to learn and understand ML concepts. " +
+                "I made my first successful model with the help of a Google Lab which is capable of recognizing damaged car parts. " +
+                "In turn, it pushed me to work on more project ideas to predict more things!",
         },
         {
-            name: "an excellent communicator",
+            name: "An Excellent Communicator",
             description:
-                "Blank :((",
+                "I firmly believe in the importance of clear and open communication. I think it's vital to " +
+                "maintain transparency and engage in meaningful conversations. This approach not only helps me " +
+                "establish profound connections, but also enhances my efficiency " +
+                "and productivity in any team.",
         },
     ];
 </script>
@@ -130,7 +137,7 @@ let steps = [
             <!-- PROJECT 1 -->
             <Step step={steps[0]}>
                 <p>
-                    A mini project in my CS131 class where I 
+                    <!-- A mini project in my CS131 class where I 
                     <strong class="text-violet-400"> 
                         analyzed
                     </strong> a 2023 anime dataset
@@ -141,20 +148,31 @@ let steps = [
                     The project includes statistical information calculated 
                     from command line (awk/sed) and 
                     graphs plotted using
-                    <strong class="text-violet-400">gnuplot</strong>.
+                    <strong class="text-violet-400">gnuplot</strong>. -->
+
+                    Blank :((
+
                 </p>
             </Step>
 
             <!-- PROJECT 2 -->
             <Step step={steps[1]}>
                 <p>
-                    A custom <strong class="text-violet-400">ML model</strong> I created that automatically 
+                    <!-- A custom <strong class="text-violet-400">ML model</strong> I created that automatically 
                     <strong class="text-violet-400">recognizes damaged car parts</strong> given a 
                     image of the damaged car. The model was made using 
                     <strong class="text-violet-400">Google Cloud Platform's Vertex AI AutoML Vision</strong>. 
                     This model is capable of <strong class="text-violet-400">classifying</strong> damaged parts 
                     into Bumper, Engine compartment, Hood, Lateral & Windshield 
-                    with 73% precision and 50% recall.
+                    with 73% precision and 50% recall. -->
+
+                    I developed a <strong class="text-violet-400">specialized machine learning model</strong> 
+                    that can identify damaged sections of a car from an image. This model was trained 
+                    using the <strong class="text-violet-400">Vertex AI AutoML Vision on the Google Cloud Platform</strong>. 
+                    It can <strong class="text-violet-400">accurately categorize</strong> 
+                    damage into various parts such as the Bumper, Engine compartment, Hood, Lateral, and Windshield with a 
+                    precision of 73% and a recall rate of 50%.
+
                 </p>
             </Step>
 
@@ -164,6 +182,7 @@ let steps = [
                     BLANK :((
                 </p>
             </Step>
+
         </div>
     </section>
     
