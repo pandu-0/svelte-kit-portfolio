@@ -6,7 +6,8 @@
     // I use this to auto scroll
     let tabs = [
         { name: 'Projects', link: '#projects' },
-        { name: 'About me', link: '#about'}
+        { name: 'About me', link: '#about' },
+        { name: 'Contact', link: '#contact' }
     ]
 </script>
 
@@ -26,14 +27,14 @@
             <div/>
         </h1>
     </a>
-    <!-- Projects and About me Header Tabs -->
+    <!-- Projects, About me, and Contact Header Tabs -->
    <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
 
         <a style="font-size: large;"
             href={tab.link} 
             class="duration-200 hover:text-violet-400"
-            target={index === 2 ? "_blank" : ""}
+            target="_self"
         >
             <p>{tab.name}</p>
         </a>

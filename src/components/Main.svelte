@@ -30,13 +30,20 @@ let steps = [
 
     let benefits = [
         {
-            metric: "10x",
-            name: "A Self Taught Programmer",
+            before_name: "A",
+            name: " Self Taught ",
+            after_name: "Programmer",
             description:
-                "Blank :((",
+            "In addition to knowledge I've gained from my college classes, I've taken the initiative to " +
+            "independently learn and master new programming and Machine Learning concepts. This self-directed " +
+            "learning has enabled me to deepen my understanding of concepts and broaden my skill set. " +
+            "I've successfully learned Python, Scikit-Learn, and Markdown! This continuous learning process " +
+            "underscores my commitment to stay updated and adaptable in the ever-evolving field of Data Science.",
         },
         {
-            name: "A Machine Learning Enthusiast",
+            before_name: "A",
+            name: " Machine Learning ",
+            after_name: "Enthusiast",
             description:
                 "I've always loved trying to predict little things in life. After taking CS 131 that " + 
                 "covered a bit of Machine Learning, I developed a passion to learn and understand ML concepts. " +
@@ -44,9 +51,11 @@ let steps = [
                 "In turn, it pushed me to work on more project ideas to predict more things!",
         },
         {
-            name: "An Excellent Communicator",
+            before_name: "An",
+            name: " Excellent ",
+            after_name: "Communicator",
             description:
-                "I firmly believe in the importance of clear and open communication. I think it's vital to " +
+                "I firmly believe in the importance of clear and open communication. I think it's crucial to " +
                 "maintain transparency and engage in meaningful conversations. This approach not only helps me " +
                 "establish profound connections, but also enhances my efficiency " +
                 "and productivity in any team.",
@@ -211,15 +220,20 @@ let steps = [
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
+                    <!-- Number next to the Header -->
                     <p
-                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
-                    >
+                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
                         0{index + 1}
                     </p>
+                    <!-- Header -->
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-5xl">
-                            <span>{benefit.name}</span>
+                            <span>{benefit.before_name}</span>
+                            <span class="text-violet-400">{benefit.name}</span>
+                            <span>{benefit.after_name}</span>
+
                         </h3>
+                        <!-- Paragraph -->
                         <p>{benefit.description}</p>
                     </div>
                 </div>
