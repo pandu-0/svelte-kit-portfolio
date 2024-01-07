@@ -88,7 +88,8 @@ let steps = [
             </p>
 
             <!-- GitHub Link -->
-            <a class="blueShadow mx-auto lg:mr-auto text-base 
+            <a style="box-shadow: 2px 2px 3px grey; text-shadow: 1px 1px 2px grey;" 
+            class="blueShadow mx-auto lg:mr-auto text-base 
             sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group 
             rounded-full bg-white text-slate-950 cursor-pointer"
             href="https://github.com/pandu-0"
@@ -123,7 +124,7 @@ let steps = [
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
-                My <span class="poppins text-violet-400">Coding</span> Odyssey.
+                My <span class="poppins text-violet-400">Coding</span> Odyssey!
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Curious to <span class="poppins text-violet-400">see</span> my work?

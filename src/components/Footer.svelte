@@ -2,7 +2,7 @@
     class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
     <!-- Connect with me bar -->
-    <p class="px-4 py-2 bg-white text-slate-950 font-medium">
+    <p style="box-shadow: 2px 2px 3px grey;" class="px-4 py-2 bg-white rounded-full text-slate-950 font-medium">
         Connect with me &darr;
     </p>
 

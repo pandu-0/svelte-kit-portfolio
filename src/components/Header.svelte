@@ -21,14 +21,14 @@
     <a href="https://www.youtube.com/watch?v=wh9QLjk3M2k&pp=ygUXY2h1cGkgY2h1cGkgY2hhcGEgY2hhcGE%3D" target="_blank">
         <h1 class="font-medium">
             <div class="duration-200 hover:text-orange-400">
-                <b style="font-size: large;" class="font-bold poppins">
+                <b style="font-size: large;text-shadow: 2px 2px 3px grey;" class="font-bold poppins">
                     Pandu
                 </b>
             <div/>
         </h1>
     </a>
     <!-- Projects, About me, and Contact Header Tabs -->
-   <div class="sm:flex items-center gap-4 hidden">
+   <div style="text-shadow: 2px 2px 3px grey;" class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
 
         <a style="font-size: large;"
@@ -42,15 +42,15 @@
    </div>
 
    <!-- Linkedin Link -->
-   <a
+   <a style="box-shadow: 2px 2px 3px grey;text-shadow: 1px 1px 2px grey;"
         href="https://www.linkedin.com/in/manmohanbabu-rupanagudi-639241249/"
         target="_blank"
         class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white 
         text-slate-950">
-   <div
-        class="absolute top-0 right-full w-full h-full bg-violet-400 
-        opacity-20 group-hover:translate-x-full z-0 duration-200"
-    />
+        <div
+            class="absolute top-0 right-full w-full h-full bg-violet-400 
+            opacity-20 group-hover:translate-x-full z-0 duration-200"
+        />
         <!--Header Get in touch button -->
         <h4 style="font-size: medium;" class="relative z-9">Connect &uarr;</h4>
     </a>
