@@ -45,8 +45,8 @@ declare module '$env/static/private' {
 	export const INIT_CWD: string;
 	export const npm_config_globalignorefile: string;
 	export const npm_package_devDependencies_vite: string;
-	export const TERM: string;
 	export const SHELL: string;
+	export const TERM: string;
 	export const npm_config_shell: string;
 	export const npm_config_maxsockets: string;
 	export const npm_config_init_author_url: string;
@@ -71,6 +71,7 @@ declare module '$env/static/private' {
 	export const npm_config_local_address: string;
 	export const npm_config_git_tag_version: string;
 	export const npm_config_cert: string;
+	export const TERM_SESSION_ID: string;
 	export const npm_config_registry: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_fetch_retries: string;
@@ -129,7 +130,6 @@ declare module '$env/static/private' {
 	export const npm_config_auth_type: string;
 	export const npm_package_name: string;
 	export const LANG: string;
-	export const LOCAL_GIT_DIRECTORY: string;
 	export const npm_config_tag: string;
 	export const npm_config_script_shell: string;
 	export const npm_config_progress: string;
@@ -261,8 +261,8 @@ declare module '$env/dynamic/private' {
 		INIT_CWD: string;
 		npm_config_globalignorefile: string;
 		npm_package_devDependencies_vite: string;
-		TERM: string;
 		SHELL: string;
+		TERM: string;
 		npm_config_shell: string;
 		npm_config_maxsockets: string;
 		npm_config_init_author_url: string;
@@ -287,6 +287,7 @@ declare module '$env/dynamic/private' {
 		npm_config_local_address: string;
 		npm_config_git_tag_version: string;
 		npm_config_cert: string;
+		TERM_SESSION_ID: string;
 		npm_config_registry: string;
 		npm_config_noproxy: string;
 		npm_config_fetch_retries: string;
@@ -345,7 +346,6 @@ declare module '$env/dynamic/private' {
 		npm_config_auth_type: string;
 		npm_package_name: string;
 		LANG: string;
-		LOCAL_GIT_DIRECTORY: string;
 		npm_config_tag: string;
 		npm_config_script_shell: string;
 		npm_config_progress: string;

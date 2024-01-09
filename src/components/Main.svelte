@@ -3,11 +3,11 @@
 
 let steps = [
     {
-        name: "Temp1",
+        name: "Coming Soon...",
         // Icons are from https://fontawesome.com/
         icon: "fa-solid fa-question fa-spin",
         description:
-            "INSERT",
+            "None",
         href: "#",
     },
 
@@ -19,12 +19,11 @@ let steps = [
         href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
     },
     {
-        name: "Temp2",
+        name: "Coming Soon...",
         icon: "fa-solid fa-question fa-spin",
         description:
-            "INSERT2",
+            "None",
         href: "#",
-        
     },
 ];
 
@@ -160,7 +159,7 @@ let steps = [
                     graphs plotted using
                     <strong class="text-violet-400">gnuplot</strong>. -->
 
-                    Blank :((
+                    In theaters only :))
 
                 </p>
             </Step>
@@ -189,7 +188,7 @@ let steps = [
             <!-- PROJECT 3 -->
             <Step step={steps[2]}>
                 <p>
-                    BLANK :((
+                    In theaters only :))
                 </p>
             </Step>
 
