@@ -3,20 +3,19 @@
 
 let steps = [
     {
-        name: "Coming Soon...",
-        // Icons are from https://fontawesome.com/
-        icon: "fa-solid fa-question fa-spin",
-        description:
-            "None",
-        href: "#",
-    },
-
-    {
         name: "Damaged Car Parts Recognition ML model",
+        // Icons are from https://fontawesome.com/
         icon: "fa-solid fa-car-burst fa-shake",
         description:
-            "INSERT1",
+            "None",
         href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
+    },
+    {
+        name: "Car Resale Price Prediction",
+        icon: "fa-solid fa-money-check-dollar fa-bounce",
+        description:
+            "INSERT1",
+        href: "https://www.kaggle.com/code/pandu0/car-resale-price-prediction-scikit-learn",
     },
     {
         name: "Coming Soon...",
@@ -33,11 +32,11 @@ let steps = [
             name: " Self Taught ",
             after_name: "Programmer",
             description:
-            "In addition to knowledge I've gained from my college classes, I've taken the initiative to " +
-            "independently learn and master new programming and Machine Learning concepts. This self-directed " +
-            "learning has enabled me to deepen my understanding of concepts and broaden my skill set. " +
-            "I've successfully learned Python, Scikit-Learn, and Markdown! This continuous learning process " +
-            "underscores my commitment to stay updated and adaptable in the ever-evolving field of Data Science.",
+                "In addition to knowledge I've gained from my college classes, I've taken the initiative to " +
+                "independently learn and master new programming and Machine Learning concepts. This self-directed " +
+                "learning has enabled me to deepen my understanding of concepts and broaden my skill set. " +
+                "I've successfully learned Python, Scikit-Learn, and Markdown! This continuous learning process " +
+                "underscores my commitment to stay updated and adaptable in the ever-evolving field of Data Science.",
         },
         {
             before_name: "A",
@@ -66,8 +65,8 @@ let steps = [
     <meta charset="UTF-8"/>
     <section
         id="introPage"
-        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
-    >
+        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+
         <div
             class="flex flex-col lg:justify-center 
             text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
@@ -87,7 +86,7 @@ let steps = [
             </p>
 
             <!-- GitHub Link -->
-            <a style="box-shadow: 2px 2px 3px grey; text-shadow: 1px 1px 2px grey;" 
+            <a style="box-shadow: 2px 2px 3px grey; text-shadow: 3px 3px 3px lightgrey;" 
             class="blueShadow mx-auto lg:mr-auto text-base 
             sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group 
             rounded-full bg-white text-slate-950 cursor-pointer"
@@ -102,7 +101,7 @@ let steps = [
                     But you can just use 1 number to fill them all -->
                 <h4 style="padding: 3px;" class="relative z-9">
                     <span>See my GitHub!</span>
-                    <i class="fa-brands fa-github fa-2xl fa-fade"></i>
+                    <i class="fa-brands fa-github fa-2xl"></i>
                 </h4>
             </a>
             
@@ -145,7 +144,7 @@ let steps = [
 
             <!-- PROJECT 1 -->
             <Step step={steps[0]}>
-                <p>
+                <p class="text-left">
                     <!-- A mini project in my CS131 class where I 
                     <strong class="text-violet-400"> 
                         analyzed
@@ -159,14 +158,7 @@ let steps = [
                     graphs plotted using
                     <strong class="text-violet-400">gnuplot</strong>. -->
 
-                    In theaters only :))
 
-                </p>
-            </Step>
-
-            <!-- PROJECT 2 -->
-            <Step step={steps[1]}>
-                <p>
                     <!-- A custom <strong class="text-violet-400">ML model</strong> I created that automatically 
                     <strong class="text-violet-400">recognizes damaged car parts</strong> given a 
                     image of the damaged car. The model was made using 
@@ -181,14 +173,28 @@ let steps = [
                     It can <strong class="text-violet-400">accurately categorize</strong> 
                     damage into various parts such as the Bumper, Engine compartment, Hood, Lateral, and Windshield with a 
                     precision of 73% and a recall rate of 50%.
+                    
 
+                </p>
+            </Step>
+
+            <!-- PROJECT 2 -->
+            <Step step={steps[1]}>
+                <p class="text-left">
+                    This is my first ML model that I coded! I used <strong class="text-violet-400">Scikit-learn</strong> in Python to create two predictive models 
+                    using <strong class="text-violet-400">K-Nearest Neighbors</strong> and 
+                    <strong class="text-violet-400">Random Forest</strong> algorithms. I also learned Pandas, Matplotlib, 
+                    and Seaborn for comprehensive <strong class="text-violet-400">data cleaning</strong>, 
+                    <strong class="text-violet-400">analysis</strong>, and <strong class="text-violet-400">visualization</strong>  
+                    to gain insights and for informed model development. In addition, I applied GridSearch for 
+                    <strong class="text-violet-400">hyperparameter tuning</strong> to optimize the performance of the ML models.
                 </p>
             </Step>
 
             <!-- PROJECT 3 -->
             <Step step={steps[2]}>
-                <p>
-                    In theaters only :))
+                <p class="text-center">
+                    In theaters only 🎬 :))
                 </p>
             </Step>
 
@@ -246,8 +252,10 @@ let steps = [
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
+
+        <!-- Table -->
             <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
+                <thead class={"border-b border-solid border-slate-200"}>
                     <tr class="">
                         <th />
                         <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>

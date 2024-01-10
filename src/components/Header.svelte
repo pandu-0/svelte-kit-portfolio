@@ -42,7 +42,7 @@
    </div>
 
    <!-- Linkedin Link -->
-   <a style="box-shadow: 2px 2px 3px grey;text-shadow: 1px 1px 2px grey;"
+   <a style="box-shadow: 2px 2px 3px grey;text-shadow: 3px 3px 3px lightgrey;"
         href="https://www.linkedin.com/in/manmohanbabu-rupanagudi-639241249/"
         target="_blank"
         class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white 
