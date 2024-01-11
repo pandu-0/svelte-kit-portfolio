@@ -15,8 +15,7 @@
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
             ? " py-4 bg-slate-950 border-violet-950"
-            : " py-6 bg-transparent border-transparent")}
->
+            : " py-6 bg-transparent border-transparent")}>
     <!-- Pandu header -->
     <a href="https://www.youtube.com/watch?v=wh9QLjk3M2k&pp=ygUXY2h1cGkgY2h1cGkgY2hhcGEgY2hhcGE%3D" target="_blank">
         <h1 class="font-medium">

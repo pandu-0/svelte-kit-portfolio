@@ -1,30 +1,30 @@
 <script>
     import Step from "./Step.svelte";
 
-let steps = [
-    {
-        name: "Damaged Car Parts Recognition ML model",
-        // Icons are from https://fontawesome.com/
-        icon: "fa-solid fa-car-burst fa-shake",
-        description:
-            "None",
-        href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
-    },
-    {
-        name: "Car Resale Price Prediction",
-        icon: "fa-solid fa-money-check-dollar fa-bounce",
-        description:
-            "INSERT1",
-        href: "https://www.kaggle.com/code/pandu0/car-resale-price-prediction-scikit-learn",
-    },
-    {
-        name: "Coming Soon...",
-        icon: "fa-solid fa-question fa-spin",
-        description:
-            "None",
-        href: "#",
-    },
-];
+    let steps = [
+        {
+            name: "Damaged Car Parts Image Recognition ML model",
+            // Icons are from https://fontawesome.com/
+            icon: "fa-solid fa-car-burst fa-shake",
+            style: "--fa-animation-duration: 3s;",
+            description: "None",
+            href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
+        },
+        {
+            name: "Car Resale Price Prediction",
+            icon: "fa-solid fa-money-check-dollar fa-bounce",
+            style: "--fa-animation-duration: 3s; --fa-bounce-height: -20px;",
+            description: "INSERT1",
+            href: "https://www.kaggle.com/code/pandu0/car-resale-price-prediction-scikit-learn",
+        },
+        {
+            name: "Coming Soon...",
+            icon: "fa-solid fa-question fa-spin",
+            style: "--fa-animation-duration: 3s;",
+            description: "None",
+            href: "#",
+        },
+    ];
 
     let benefits = [
         {
@@ -145,56 +145,34 @@ let steps = [
             <!-- PROJECT 1 -->
             <Step step={steps[0]}>
                 <p class="text-left">
-                    <!-- A mini project in my CS131 class where I 
-                    <strong class="text-violet-400"> 
-                        analyzed
-                    </strong> a 2023 anime dataset
-                    to see if I can find any interesting
-                    <strong class="text-violet-400">
-                        insights.
-                    </strong> 
-                    The project includes statistical information calculated 
-                    from command line (awk/sed) and 
-                    graphs plotted using
-                    <strong class="text-violet-400">gnuplot</strong>. -->
-
-
-                    <!-- A custom <strong class="text-violet-400">ML model</strong> I created that automatically 
-                    <strong class="text-violet-400">recognizes damaged car parts</strong> given a 
-                    image of the damaged car. The model was made using 
-                    <strong class="text-violet-400">Google Cloud Platform's Vertex AI AutoML Vision</strong>. 
-                    This model is capable of <strong class="text-violet-400">classifying</strong> damaged parts 
-                    into Bumper, Engine compartment, Hood, Lateral & Windshield 
-                    with 73% precision and 50% recall. -->
-
                     I developed a <strong class="text-violet-400">specialized machine learning model</strong> 
                     that can identify damaged sections of a car from an image. This model was trained 
                     using the <strong class="text-violet-400">Vertex AI AutoML Vision on the Google Cloud Platform</strong>. 
                     It can <strong class="text-violet-400">accurately categorize</strong> 
                     damage into various parts such as the Bumper, Engine compartment, Hood, Lateral, and Windshield with a 
                     precision of 73% and a recall rate of 50%.
-                    
-
                 </p>
             </Step>
 
             <!-- PROJECT 2 -->
             <Step step={steps[1]}>
+
                 <p class="text-left">
-                    This is my first ML model that I coded! I used <strong class="text-violet-400">Scikit-learn</strong> in Python to create two predictive models 
-                    using <strong class="text-violet-400">K-Nearest Neighbors</strong> and 
-                    <strong class="text-violet-400">Random Forest</strong> algorithms. I also learned Pandas, Matplotlib, 
+                    This is my first ML model that I coded! I used <strong class="text-violet-400">Scikit-learn</strong> 
+                    in Python to create two predictive Regression models using <strong class="text-violet-400">K-Nearest Neighbors</strong> 
+                    and <strong class="text-violet-400">Random Forest</strong> algorithms. I also learned Pandas, Matplotlib, 
                     and Seaborn for comprehensive <strong class="text-violet-400">data cleaning</strong>, 
                     <strong class="text-violet-400">analysis</strong>, and <strong class="text-violet-400">visualization</strong>  
                     to gain insights and for informed model development. In addition, I applied GridSearch for 
                     <strong class="text-violet-400">hyperparameter tuning</strong> to optimize the performance of the ML models.
                 </p>
+
             </Step>
 
             <!-- PROJECT 3 -->
             <Step step={steps[2]}>
                 <p class="text-center">
-                    In theaters only 🎬 :))
+                    In theaters only 🎬 ;)
                 </p>
             </Step>
 

@@ -12,7 +12,7 @@
         class="bg-slate-950 grid 
         place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 
         md:-mt-14 lg:-mt-16 mx-auto duration-200">
-        <i class={step.icon} />
+        <i class={step.icon} style={step.style}/>
     </div>
 
     <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">
