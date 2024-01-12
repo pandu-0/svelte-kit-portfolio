@@ -3,7 +3,7 @@
 
     let steps = [
         {
-            name: "Damaged Car Parts Image Recognition ML model",
+            name: "Damaged Car Parts Image Recognition",
             // Icons are from https://fontawesome.com/
             icon: "fa-solid fa-car-burst fa-shake",
             style: "--fa-animation-duration: 3s;",
@@ -104,8 +104,7 @@
                     <i class="fa-brands fa-github fa-2xl"></i>
                 </h4>
             </a>
-            
-            
+        
         </div>
 
         <!-- Profile image -->
