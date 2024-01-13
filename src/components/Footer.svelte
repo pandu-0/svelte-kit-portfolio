@@ -6,7 +6,7 @@
     <!-- Connect with me bar -->
     <p  style="box-shadow: 2px 2px 3px grey; text-shadow: 3px 3px 3px lightgrey;" 
         class="px-4 py-2 bg-white rounded-full text-slate-950 font-medium">
-            Connect with me &darr;
+            Get in touch &darr;
     </p>
 
     <!-- Footer Linkedin and GitHub Links-->
