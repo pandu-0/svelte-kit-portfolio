@@ -63,6 +63,7 @@ declare module '$env/static/private' {
 	export const npm_config_sign_git_tag: string;
 	export const npm_config_init_author_email: string;
 	export const npm_config_cache_max: string;
+	export const npm_package_dependencies__vercel_analytics: string;
 	export const ZDOTDIR: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const MallocNanoZone: string;
@@ -279,6 +280,7 @@ declare module '$env/dynamic/private' {
 		npm_config_sign_git_tag: string;
 		npm_config_init_author_email: string;
 		npm_config_cache_max: string;
+		npm_package_dependencies__vercel_analytics: string;
 		ZDOTDIR: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		MallocNanoZone: string;
