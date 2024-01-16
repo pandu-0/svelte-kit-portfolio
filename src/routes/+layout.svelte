@@ -10,6 +10,11 @@
     function goTop() {
         document.body.scrollIntoView();
     }
+
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
+ 
+    inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="container relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen ">
