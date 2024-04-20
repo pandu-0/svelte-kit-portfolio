@@ -3,12 +3,12 @@
 
     let steps = [
         {
-            name: "Damaged Car Parts Image Recognition",
+            name: "Neural Network-based Blocking Prediction for Elastic Network Slicing",
             // Icons are from https://fontawesome.com/
-            icon: "fa-solid fa-car-burst fa-shake",
-            style: "--fa-animation-duration: 3s;",
+            icon: "fa-solid fa-microscope fa-flip",
+            style: "--fa-animation-duration: 5s;",
             description: "None",
-            href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
+            href: "https://github.com/pandu-0/SRD19-poster/blob/main/2024_srd19_pandu_final_draft.pdf",
         },
         {
             name: "Car Resale Price Prediction",
@@ -18,11 +18,11 @@
             href: "https://www.kaggle.com/code/pandu0/car-resale-price-prediction-scikit-learn",
         },
         {
-            name: "Coming Soon...",
-            icon: "fa-solid fa-question fa-spin",
+            name: "Damaged Car Parts Image Recognition",
+            icon: "fa-solid fa-car-burst fa-shake",
             style: "--fa-animation-duration: 3s;",
             description: "None",
-            href: "#",
+            href: "https://github.com/pandu-0/Damaged-Car-Parts-Recognition-ML-Model",
         },
     ];
 
@@ -144,18 +144,21 @@
             <!-- PROJECT 1 -->
             <Step step={steps[0]}>
                 <p class="text-left">
-                    I developed a <strong class="text-violet-400">specialized machine learning model</strong> 
-                    that can identify damaged sections of a car from an image. This model was trained 
-                    using the <strong class="text-violet-400">Vertex AI AutoML Vision on the Google Cloud Platform</strong>. 
-                    It can <strong class="text-violet-400">accurately categorize</strong> 
-                    damage into various parts such as the Bumper, Engine compartment, Hood, Lateral, and Windshield with a 
-                    precision of 73% and a recall rate of 50%.
+                    This is also my first ever research project! I collaborated with Professor Ishigaki on a  
+                    <strong class="text-violet-400">research</strong> project focused on <strong class="text-violet-400">enhancing</strong> 
+                    the reliability of <strong class="text-violet-400">5G</strong> internet connections through 5G 
+                    <strong class="text-violet-400">Elastic Network Slicing</strong>. 
+                    We used <strong class="text-violet-400">Neural Networks</strong> and Ensemble Machine Learning models 
+                    such as RandomForest and GradientBoost in the Scikit-Learn library of Python for 
+                    <strong class="text-violet-400">predicting</strong> performance degradation events. 
+                    I <strong class="text-violet-400">showcased</strong> the research findings at the Research Innovation 
+                    Showcase and Student Research Day at my college (SJSU). 
+
                 </p>
             </Step>
-
+            
             <!-- PROJECT 2 -->
             <Step step={steps[1]}>
-
                 <p class="text-left">
                     This is my first ML model that I coded! I used <strong class="text-violet-400">Scikit-learn</strong> 
                     in Python to create two predictive Regression models using <strong class="text-violet-400">K-Nearest Neighbors</strong> 
@@ -165,13 +168,18 @@
                     to gain insights and for informed model development. In addition, I applied GridSearch for 
                     <strong class="text-violet-400">hyperparameter tuning</strong> to optimize the performance of the ML models.
                 </p>
-
+                
             </Step>
-
+            
             <!-- PROJECT 3 -->
             <Step step={steps[2]}>
-                <p class="text-center">
-                    In theaters only 🎬 ;)
+                <p class="text-left">
+                    I developed a <strong class="text-violet-400">specialized machine learning model</strong> 
+                    that can identify damaged sections of a car from an image. This model was trained 
+                    using the <strong class="text-violet-400">Vertex AI AutoML Vision on the Google Cloud Platform</strong>. 
+                    It can <strong class="text-violet-400">accurately categorize</strong> 
+                    damage into various parts such as the Bumper, Engine compartment, Hood, Lateral, and Windshield with a 
+                    precision of 73% and a recall rate of 50%.
                 </p>
             </Step>
 
